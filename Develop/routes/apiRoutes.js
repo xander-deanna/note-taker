@@ -14,6 +14,29 @@ module.exports = (app) => {
   });
 
   // API route for adding a new note
+  // app.post('/api/notes', (req, res) => {
+  //   async function postNote() {
+  //     // generates an ID for each note
+  //     req.body.id = `${uuidv4()}`;
+  //     // pushes the note with the id to the database
+  //     db.push(req.body);
+  //     fs.writeFile("./db/db.json", JSON.stringify(db), (err) => {
+  //       if (err) throw err;
+  //     })
+  //     // returns the db with the added note
+  //     res.json(db);
+
+  //     let = readDBFirst = function readDB(){
+  //       fs.readFile(("./db/db.json"), (err, data) => {
+  //         if (err) throw err;
+  //         res.send(JSON.parse(data));
+  //       });
+  //     }        
+  //     await readDBFirst
+  //   }
+  //   postNote();
+  // }
+    
   app.post('/api/notes', (req, res) => {
     // generates an ID for each note
     req.body.id = `${uuidv4()}`;
