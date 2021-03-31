@@ -25,13 +25,11 @@ This application is dependent on the npm package Express.
 * Once the repo has been cloned, please navigate to the correct directory using your terminal or other command line application. You'll want to be in the "Develop" folder for this app.
 * Next type <code>npm i</code> into the command line and hit <kbd>enter</kbd> to install all dependencies.
 <br>
-<br>
 
 ## Demo
 Here is a gif to help demonstrate the site's usage:
 <br>
 ![Demo gif](./Assets/DemoGif.gif)
-
 <br>
 <br>
     
