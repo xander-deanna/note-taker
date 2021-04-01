@@ -1,6 +1,6 @@
 # **Note Taker** - [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
     
-The **Note Taker** application uses Node.js and Express in order to save a users notes to a backend server deployed on Heroku. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+The **Note Taker** application uses Node.js and Express in order to save a user's notes to a backend server deployed on Heroku. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
 <br>
 <br>
 <hr>
@@ -15,12 +15,12 @@ The **Note Taker** application uses Node.js and Express in order to save a users
 <br>
                 
 ## Requirements
-This application is dependent on the npm package Express.
+This application is dependent on the npm package Express. You may run the deployed site via the [Heroku Link](https://xander-heroku-note-taker.herokuapp.com/), or you can run it locally on your computer by following the usage instructions below.
 <br>
 <br>
             
 ## Usage
-**Note Taker** requires npm packages to run. Please make sure [node is installed](https://nodejs.org/en/download/) prior to cloning the repo. You can find instructions for installing node on the [node website](https://nodejs.org/en/download/).
+**Note Taker** requires npm packages to run locally. Please make sure [node is installed](https://nodejs.org/en/download/) prior to cloning the repo. You can find instructions for installing node on the [node website](https://nodejs.org/en/download/).
 * After you're sure node.js has been installed correctly, clone the [Note Taker Repo](https://github.com/xander-deanna/note-taker) locally onto your computer. Instructions on how to clone from Github can be found on [Github Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 * Once the repo has been cloned, please navigate to the correct directory using your terminal or other command line application. You'll want to be in the "Develop" folder for this app.
 * Next type <code>npm i</code> into the command line and hit <kbd>enter</kbd> to install all dependencies.
